@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Change a point color</title>
+  </head>
+  <style>
+    body { background-color: grey;}
+  </style>
+  <body onload="main()">
+
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+    <br></br>
+    <button type="button" id="green">Green</button>
+    <button type="button" id="red">Red</button>
+    <br></br>
+    
+    <button type="button" id="pointButton">Point</button>
+    <button type="button" id="triButton">Triangle</button>
+    <button type="circle" id="circle">Circle</button>
+    <!-- <button type="draw" id="draw">Image</button> -->
+    <br></br>
+    <button type="button" id="clearButton">Clear</button>
+
+    <!-- <p>
+    Red <input type="range" min="0" max="100" value="100" class="slider" id="redSlide">
+    <p>
+    Green <input type="range" min="0" max="100" value="100" class="slider" id="greenSlide">
+    <p>
+    Blue <input type="range" min="0" max="100" value="100" class="slider" id="blueSlide"> -->
+
+    <p id="numdot">XXX</p>
+    Head <input type="range" min="-45" max="25" value="0" class="slider" id="headjoint">
+    <!-- <p>
+    Head tilting <input type="range" min="-45" max="45" value="0" class="slider" id="yelloSlide"> -->
+    <p>
+    Tail <input type="range" min="-45" max="45" value="0" class="slider" id="tailjoint">
+    <p>
+    Tail2 <input type="range" min="-45" max="45" value="0" class="slider" id="tailjoint2">
+    <p>
+    Tail3 <input type="range" min="-45" max="45" value="0" class="slider" id="tailjoint3">
+    <p>
+    Legs <input type="range" min="-45" max="45" value="0" class="slider" id="magentaSlide">
+    <!-- Swiping Heart Animation: 
+    <button type="button" id="animationYellowButtonOn">ON</button>
+    <button type="button" id="animationYellowButtonOff">OFF</button> -->
+    <p>
+    Walking Animation:
+    <button type="button" id="animationMOn">ON</button>
+    <button type="button" id="animationMOff">OFF</button>
+
+    <p>
+    Camera Angle <input type="range" min="0" max="360" value="5" class="slider" id="angleSlide">
+    <p>
+    <!-- Pressing the Awesome button makes 3d triangle segments. I didn't do it right but go nuts. (PRETTIER IF YOU JUST CLICK, DON'T DRAG)</p> -->
+    <!-- <button type="button" id="awesome">Awesome</button> -->
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix.js"></script>
+    <script src="Circle.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Point.js"></script>
+    <script src="BlockyAnimalFox.js"></script>
+    <script src="Cube.js"></script>
+    <script src="TriangleP.js"></script>
+  </body>
+</html>
