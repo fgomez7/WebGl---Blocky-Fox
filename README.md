@@ -5,7 +5,9 @@ It's a blocky fox, to be more specific, it's swiper. I brought swiper to life in
 ## Getting Started
 You will need the latest version of Javascript and a browser that supports WebGL 
 
-No installation required, open the html file in preferred browser. 
+No installation required, open the html file in preferred browser. Preview it here!
+
+[Blocky 3D Animal](https://fgomez7.github.io/WebGl-Projects/ASGN2/BlockyFox.html) - A 3D cube Swiper
 
 ## Built With
 * [Javascript](https://www.javascript.com/) - Application Language
